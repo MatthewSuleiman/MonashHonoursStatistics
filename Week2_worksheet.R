@@ -1,6 +1,7 @@
 library(data.table)
 library(reshape2)
-
+install.packages("reshape2")
+install.packages("extraoperators")
 library(extraoperators)
 
 ### 1. Vectors ###
