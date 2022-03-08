@@ -1,5 +1,5 @@
 #### 1. Basic R Use ####
-
+install.packages("tufte")
 ## use R as a calculator
 3 + 4 # addition
 
@@ -118,6 +118,7 @@ d <- read.csv("IntroR_sample.csv")
 
 # (When you have more time, also install package "tidyverse"
 # - it takes a while)
+install.packages("tidyverse")
 
 ## YOU TRY IT: get a summary of the data
 ???
@@ -126,12 +127,13 @@ d <- read.csv("IntroR_sample.csv")
 ## if not installed please uncomment and run code below
  install.packages("xlsx", dependencies = TRUE)
 library("xlsx")
-
+install.packages("readxl")
 ## read in the "Sleep" sheet
 d.acti <- read.xlsx2("actigraph_scored_31.xlsx", sheetName = "Sleep")
 
 ## view the variable names in the dataset
 names(d.acti)
+names(d_acti)
 
 #### 4b. You Try It ####
 ## calculate the mean sleep duration (total sleep time; TST)
